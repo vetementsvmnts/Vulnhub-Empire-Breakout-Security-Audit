@@ -1,14 +1,17 @@
 <div align="center">
 
-# Empire: Breakout — Security Audit
+```
+┌────────────────────────────────────────────┐
+│      E M P I R E   ::   B R E A K O U T     │
+│           Security Audit Report             │
+└────────────────────────────────────────────┘
+```
 
 **`Boot2Root Assessment · VulnHub · Full Attack Chain Documentation`**
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy--Medium-4EAA25?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-VulnHub-CC0000?style=for-the-badge&logo=linux&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Rooted-00FF41?style=for-the-badge)
-![Methodology](https://img.shields.io/badge/Methodology-OWASP_%2F_MITRE_ATT%26CK-557C94?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-3E4444?style=for-the-badge)
+| 🟢 Status | 🎯 Difficulty | 🖥️ Platform | 🛡️ Methodology | 📄 License |
+|:---:|:---:|:---:|:---:|:---:|
+| **Rooted** | **Senior** | **VulnHub** | **OWASP / MITRE ATT&CK** | **MIT** |
 
 <sub>Target: **Empire: Breakout** (VulnHub) — authored by Icex64 & Empire Cybersecurity · <a href="https://www.vulnhub.com/entry/empire-breakout,751/">vulnhub.com/entry/empire-breakout,751</a></sub>
 
@@ -158,14 +161,11 @@ SUMMARY    →  Attack path documented start-to-finish for reproducibility and r
 
 ## ◈ Skills Demonstrated
 
-![Nmap](https://img.shields.io/badge/Nmap-4EAA25?style=flat-square&logoColor=white)
-![Gobuster](https://img.shields.io/badge/Gobuster-3E4444?style=flat-square&logoColor=white)
-![enum4linux](https://img.shields.io/badge/enum4linux-557C94?style=flat-square&logoColor=white)
-![smbclient](https://img.shields.io/badge/smbclient-3E4444?style=flat-square&logoColor=white)
-![LinPEAS](https://img.shields.io/badge/LinPEAS-CC0000?style=flat-square&logoColor=white)
-![Netcat](https://img.shields.io/badge/Netcat-4EAA25?style=flat-square&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+| Category | Tools |
+|---|---|
+| **Recon & Scanning** | `Nmap` `Gobuster` `enum4linux` `smbclient` |
+| **Access & Shells** | `Netcat` `Python` `Bash` |
+| **Privilege Escalation** | `LinPEAS` · manual file/permission auditing |
 
 - Black-box service enumeration and attack surface mapping
 - Cipher/encoding identification and credential recovery
